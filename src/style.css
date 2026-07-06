@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252C;
+}
+
+
+/* card */
+
+.card {
+    width: 318px;
+    border-radius: 10px;
+    background-color: #1A1B21;
+}
+
+/* information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 1.125rem;
+}
+
+.subtitle {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #F3BF99;
+}
+
+.email {
+    margin-top: 8px;
+    font-size: 0.64rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.button {
+    width: 115px;
+    padding: 10px;
+    background-color: white;
+    color: #1A1B21;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button i {
+    margin-right: 8px;
+    color: #1A1B21;
+}
+
+.button--accent {
+    background-color: #5093E2;
+    color: white;
+}
+
+.button--accent i {
+    color: white;
+}
+
+/* about */
+
+.about {
+    padding: 12px 40px 40px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.text {
+    margin-top: 5px;
+    font-size: 0.64rem;
+    line-height: 150%;
+}
+
+/* icons */
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 0;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.icon {
+    font-size: 1.6rem;
+}
+
+.icon i {
+    color: #918E9B;
+}
