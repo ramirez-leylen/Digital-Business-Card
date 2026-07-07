@@ -71,6 +71,12 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #b7b5bd;
+    transition: all 0.5s;
 }
 
 .button i {
@@ -81,6 +87,10 @@ body {
 .button--accent {
     background-color: #5093E2;
     color: white;
+}
+
+.button--accent:hover {
+    background-color: #316198;
 }
 
 .button--accent i {
@@ -123,4 +133,72 @@ body {
 
 .icon i {
     color: #918E9B;
+    transition: all 0.5s;
+}
+
+.icon i:hover {
+    color: white;
+    transition: all 0.5s;
+}
+
+/* responsive desgin */
+
+/* tablet */
+
+@media (min-width: 768px) {
+    .card {
+        width: 450px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .email {
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .icons {
+        gap: 32px;
+    }
+
+    .icon {
+        font-size: 2.2rem;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 992px) {
+    .card {
+        width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+    }
+
+    .information {
+        margin-bottom: 30px;
+    }
+
+    .profile-picture {
+        border-radius: 10px 0 0 0;
+    }
+
+    .icons {
+        flex-direction: column;
+        padding: 0 30px;
+        border-radius: 0 10px 10px 0;
+    }
 }
