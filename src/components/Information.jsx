@@ -6,8 +6,8 @@ export default function Information() {
             <p className="subtitle">Frontend Developer</p>
             <p className="email">kadessovaayazhan@gmail.com</p>
             <div className="buttons">
-                <a className="button" href=""><i className="fa-solid fa-envelope"></i>Email</a>
-                <a className="button button--accent" href=""><i className="fa-brands fa-linkedin"></i>Linkedin</a>
+                <a className="button" href="https://mail.google.com"><i className="fa-solid fa-envelope"></i>Email</a>
+                <a className="button button--accent" href="https://www.linkedin.com/"><i className="fa-brands fa-linkedin"></i>Linkedin</a>
             </div>
         </section>
     )
