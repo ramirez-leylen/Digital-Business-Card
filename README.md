@@ -1,16 +1,44 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Una aplicación web estática que funciona como una tarjeta de presentación digital. Permite mostrar información personal y profesional de forma moderna, facilitando el acceso a redes sociales, datos de contacto y otros enlaces relevantes desde un único lugar.
 
-Currently, two official plugins are available:
+## 🚀 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto fue desarrollado como práctica de desarrollo frontend utilizando React, con el objetivo de crear una interfaz simple y limpia.
 
-## React Compiler
+## 🛠️ Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React + Vite
+* HTML
+* CSS
+* JavaScript
 
-## Expanding the Oxlint configuration
+## ▶️ Cómo ejecutar el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/ramirez-leylen/Digital-Business-Card.git
+```
+
+2. Ingresar al directorio del proyecto:
+
+```bash
+cd Digital-Business-Card
+```
+
+3. Instalar dependencias (si corresponde):
+
+```bash
+npm install
+```
+
+4. Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+## 👩‍💻 Autora
+
+Desarrollado por **Leylen Ramírez** como parte de mi ruta de aprendizaje de React.
