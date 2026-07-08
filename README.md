@@ -1,10 +1,6 @@
 # Digital Business Card
 
-Una aplicación web estática que funciona como una tarjeta de presentación digital. Permite mostrar información personal y profesional de forma moderna, facilitando el acceso a redes sociales, datos de contacto y otros enlaces relevantes desde un único lugar.
-
-## 🚀 Descripción
-
-Este proyecto fue desarrollado como práctica de desarrollo frontend utilizando React, con el objetivo de crear una interfaz simple y limpia.
+Una aplicación web estática que funciona como una tarjeta de presentación digital. Muestra información personal y profesional de forma moderna, facilitando el acceso a redes sociales, datos de contacto y otros enlaces relevantes desde un único lugar. Este proyecto fue desarrollado como parte de mi ruta de aprendizaje de Desarrollo Frontend utilizando React.
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -38,7 +34,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-## 👩‍💻 Autora
-
-Desarrollado por **Leylen Ramírez** como parte de mi ruta de aprendizaje de React.
